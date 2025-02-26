@@ -1,5 +1,5 @@
 .header {
-
+ margin-bottom: 20px;
 }
 
 .logo {
@@ -12,6 +12,7 @@
     align-items: flex-end;
     font-size: 18px;
    align-items: center;
+
 }
 
 .menu-item {
@@ -25,23 +26,28 @@
 .content-contener {
     display: flex;
     align-items: flex-end;
-    
+    justify-content: center;
 }
 
 .content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-end;
     background-color: rgb(255,255,255);
     background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(205,235,167,1) 100%);
-
+    padding: 100px;
 }
 
+.content-left {
+    margin-right: 70px;
+}
 .content-header {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 600;
-    margin: 50px;
+margin-bottom: 30px;
+
 }
 
 .content-text {
-    margin
+    font-size: 25px;
 }

@@ -22,3 +22,26 @@
     color: blueviolet;
 }
 
+.content-contener {
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255,255,255);
+    background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(205,235,167,1) 100%);
+
+}
+
+.content-header {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px;
+}
+
+.content-text {
+    margin
+}
